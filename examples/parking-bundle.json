@@ -1,0 +1,104 @@
+{
+  "read": {
+    "thread": {
+      "id": "00000003-0000-4000-8000-f00000000003",
+      "status": {
+        "type": "idle"
+      }
+    },
+    "turns": [
+      {
+        "id": "synthetic-final-turn",
+        "status": "completed",
+        "error": null,
+        "completedAt": 200,
+        "items": [
+          {
+            "type": "agentMessage",
+            "phase": "final_answer",
+            "text": "Synthetic one-off result delivered and accepted."
+          }
+        ]
+      }
+    ]
+  },
+  "current_read": {
+    "thread": {
+      "id": "00000003-0000-4000-8000-f00000000003",
+      "status": {
+        "type": "idle"
+      }
+    },
+    "turns": [
+      {
+        "id": "synthetic-final-turn",
+        "status": "completed",
+        "error": null,
+        "completedAt": 200,
+        "items": [
+          {
+            "type": "agentMessage",
+            "phase": "final_answer",
+            "text": "Synthetic one-off result delivered and accepted."
+          }
+        ]
+      }
+    ]
+  },
+  "assessment": {
+    "turn_id": "synthetic-final-turn",
+    "objective_complete": true,
+    "return_contract_fulfilled": true,
+    "ordinary_nonrecurring": true,
+    "required_gate_pending": false,
+    "needs_input": false,
+    "unfinished_backlog": false,
+    "ambiguous": false,
+    "reason": "Synthetic objective and local return fulfilled.",
+    "result_pointer": "synthetic://result/oneoff"
+  },
+  "inventory": {
+    "sections": [
+      {
+        "sectionId": "00000006-0000-4000-8000-f00000000006",
+        "name": "Research",
+        "itemKeys": [
+          "codex:thread:local:00000003-0000-4000-8000-f00000000003",
+          "codex:thread:local:00000002-0000-4000-8000-f00000000002"
+        ]
+      },
+      {
+        "sectionId": "00000007-0000-4000-8000-f00000000007",
+        "name": "References",
+        "itemKeys": [
+          "codex:thread:local:00000004-0000-4000-8000-f00000000004"
+        ]
+      },
+      {
+        "sectionId": "00000008-0000-4000-8000-f00000000008",
+        "name": "Today",
+        "itemKeys": []
+      }
+    ],
+    "threads": [
+      {
+        "id": "00000002-0000-4000-8000-f00000000002",
+        "title": "Friday: Research"
+      },
+      {
+        "id": "00000003-0000-4000-8000-f00000000003",
+        "title": "research-operator: sample study"
+      }
+    ],
+    "pinnedThreads": [
+      {
+        "id": "00000001-0000-4000-8000-f00000000001"
+      }
+    ]
+  },
+  "source_section": "00000006-0000-4000-8000-f00000000006",
+  "protected": [
+    "00000001-0000-4000-8000-f00000000001",
+    "00000002-0000-4000-8000-f00000000002"
+  ]
+}

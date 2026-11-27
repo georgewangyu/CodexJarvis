@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.runtime/
+*.sqlite*
+config.local.json
+*.local.json
+private/
+runtime/
+board*.html
+incoming-results/

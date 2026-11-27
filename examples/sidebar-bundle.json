@@ -1,0 +1,102 @@
+{
+  "config": {
+    "version": 1,
+    "host_id": "local",
+    "project": {
+      "id": "00000005-0000-4000-8000-f00000000005",
+      "cwd": "/synthetic/workspace"
+    },
+    "controller": {
+      "id": "00000001-0000-4000-8000-f00000000001",
+      "title": "Jarvis"
+    },
+    "references_section_id": "00000007-0000-4000-8000-f00000000007",
+    "priority_section_ids": [
+      "00000008-0000-4000-8000-f00000000008"
+    ],
+    "preserved_section_ids": [],
+    "protected_thread_ids": [],
+    "recurring_thread_ids": [],
+    "direct_workers": [],
+    "workstreams": [
+      {
+        "key": "research",
+        "name": "Research",
+        "section_id": "00000006-0000-4000-8000-f00000000006",
+        "manager": {
+          "id": "00000002-0000-4000-8000-f00000000002",
+          "title": "Friday: Research"
+        },
+        "workers": [
+          "00000003-0000-4000-8000-f00000000003"
+        ]
+      }
+    ]
+  },
+  "inventory": {
+    "sections": [
+      {
+        "sectionId": "00000006-0000-4000-8000-f00000000006",
+        "name": "Research",
+        "itemKeys": [
+          "codex:thread:local:00000003-0000-4000-8000-f00000000003",
+          "codex:thread:local:00000002-0000-4000-8000-f00000000002"
+        ]
+      },
+      {
+        "sectionId": "00000007-0000-4000-8000-f00000000007",
+        "name": "References",
+        "itemKeys": [
+          "codex:thread:local:00000004-0000-4000-8000-f00000000004"
+        ]
+      },
+      {
+        "sectionId": "00000008-0000-4000-8000-f00000000008",
+        "name": "Today",
+        "itemKeys": []
+      }
+    ],
+    "threads": [
+      {
+        "id": "00000002-0000-4000-8000-f00000000002",
+        "title": "Friday: Research"
+      },
+      {
+        "id": "00000003-0000-4000-8000-f00000000003",
+        "title": "research-operator: sample study"
+      }
+    ],
+    "pinnedThreads": [
+      {
+        "id": "00000001-0000-4000-8000-f00000000001"
+      }
+    ]
+  },
+  "bindings": {
+    "00000002-0000-4000-8000-f00000000002": {
+      "create": {
+        "thread_id": "00000002-0000-4000-8000-f00000000002",
+        "project_id": "00000005-0000-4000-8000-f00000000005",
+        "host_id": "local",
+        "environment": "local",
+        "item_id": "synthetic-create"
+      },
+      "execution": {
+        "thread_id": "00000002-0000-4000-8000-f00000000002",
+        "runtime_session": "00000002-0000-4000-8000-f00000000002",
+        "cwd": "/synthetic/workspace",
+        "item_id": "synthetic-execution"
+      },
+      "charter_accepted": true,
+      "charter_item_id": "synthetic-charter-acceptance"
+    }
+  },
+  "projects": [
+    {
+      "id": "00000005-0000-4000-8000-f00000000005",
+      "name": "Workspace",
+      "cwd": "/synthetic/workspace",
+      "host_id": "local"
+    }
+  ]
+}

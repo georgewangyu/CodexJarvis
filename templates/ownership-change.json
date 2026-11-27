@@ -1,0 +1,21 @@
+{
+  "operation_id": "<new immutable UUID for this explicit change>",
+  "helper": "<exact existing manager UUID>",
+  "members": ["<exact existing ordinary worker UUID>"],
+  "expected_owners": {"<worker UUID>": "<current owner UUID>"},
+  "authorization_evidence": "<current human authorization pointer>",
+  "placement": {
+    "surface": "codex_desktop_sidebar",
+    "host_id": "local",
+    "thread_id": "<exact manager UUID>",
+    "section_id": "<exact custom desktop sectionId>",
+    "observed_at": null,
+    "inventory_section": null,
+    "location_exceptions": {}
+  },
+  "official_evidence": {
+    "placement": "<exact official operation item>",
+    "inventory": "<fresh official inventory item>",
+    "charter_acceptance": "<exact accepted charter item>"
+  }
+}
